@@ -1,0 +1,31 @@
+# Radian configuration file
+
+# pop up completion while typing
+options(radian.complete_while_typing = TRUE)
+
+# auto suggest completions (experimental: may break.)
+options(radian.auto_suggest = TRUE)
+
+# the minimum length of prefix to trigger auto completions
+options(radian.completion_prefix_length = 4)
+
+# See https://pygments.org/styles/
+# for a list of supported color schemes, default scheme is "native"
+options(radian.color_scheme = "native")
+options(radian.prompt = "\033[0;34m>\033[0m ")
+
+# where the global history is stored, environmental variables will be expanded
+options(radian.global_history_file = "~/.radian_history")
+# the filename that local history is stored
+options(radian.local_history_file = ".radian_history") # same as R
+options(radian.history_search_no_duplicates = TRUE)
+
+# auto match brackets and quotes
+options(radian.auto_match = TRUE)
+
+# highlight matching bracket
+options(radian.highlight_matching_bracket = TRUE)
+options(radian.tab_size = 2)
+
+# automatically adjust R buffer size based on terminal width
+options(radian.auto_width = TRUE)

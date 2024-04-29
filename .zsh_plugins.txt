@@ -1,0 +1,49 @@
+# # .zsh_plugins.txt - antidote plugins file
+# # https://github.com/getantidote/zdotdir/blob/main/.zsh_plugins.txt
+
+# https://github.com/peterhurford/up.zsh
+# https://github.com/rummik/zsh-tailf
+# https://github.com/mattmc3/zman
+# https://github.com/agkozak/zsh-z
+
+# # Prompt plugin
+https://github.com/romkatv/powerlevel10k
+# https://github.com/sindresorhus/pure
+
+# # Framework: Oh-My-Zsh
+
+# https://github.com/ohmyzsh/ohmyzsh path:lib/clipboard.zsh
+# https://github.com/ohmyzsh/ohmyzsh path:plugins/copybuffer
+# https://github.com/ohmyzsh/ohmyzsh path:plugins/copyfile
+# https://github.com/ohmyzsh/ohmyzsh path:plugins/copypath
+# https://github.com/ohmyzsh/ohmyzsh path:plugins/extract
+# https://github.com/ohmyzsh/ohmyzsh path:plugins/magic-enter
+# https://github.com/ohmyzsh/ohmyzsh path:plugins/fancy-ctrl-z
+
+# # Framework: zsh-utils
+
+https://github.com/belak/zsh-utils path:history
+https://github.com/belak/zsh-utils path:utility
+# https://github.com/belak/zsh-utils path:editor
+
+# # Deferred plugins
+
+# # Syntax Highlighting
+https://github.com/zdharma-continuum/fast-syntax-highlighting
+
+# # Alias
+https://github.com/djui/alias-tips
+
+# # Completions
+
+https://github.com/zsh-users/zsh-completions path:src kind:fpath
+https://github.com/belak/zsh-utils path:completion
+
+# # AI
+# https://github.com/muePatrick/zsh-ai-commands
+
+# # Final plugins
+
+https://github.com/marlonrichert/zsh-autocomplete
+# https://github.com/zsh-users/zsh-autosuggestions
+https://github.com/zsh-users/zsh-history-substring-search
